@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.slider {
+  background: url(../img/quien_soy.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.part-1 {
+  height: 100vh;
+}
+
+.content-proyect {
+  background: #e7ebdb;
+}
+
+.color-fondo {
+  background: #19243c;
+}
+
+.titulo {
+  font-family: "Bebas Neue", cursive;
+}
+.not-a {
+  text-decoration: none;
+  color: white;
+}
+
+.text-skills-fameworks {
+  font-size: 11px;
+}
+
+.img-skills {
+  height: 70px;
+}
+.php {
+  height: 50px;
+}
+
+.focus-skills {
+  transition: 200ms;
+}
+
+.focus-skills:hover {
+  transform: scale(1.05, 1.05);
+  background: none;
+  color: #000000;
+  font-size: 17px;
+}
